@@ -60,11 +60,97 @@
             </li>
           </ul>
         </address>
+
+        <!-- Mobile Menu -->
+<div class="mobile-menu is-open" data-menu>
+  <div class="mobile-menu-container">
+<button type="button" class="mobile-menu-button" data-menu-close>
+  <svg class="mobule-button" width="8" height="8">
+    <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+  </svg>
+</button>
+    <form class="mobile-form">
+      <div class="mobile-div">
+        <ul class="mobile-list">
+          <li class="mobile-items">
+            <a class="mobile-link-item" href="#">Studio</a>
+          </li>
+          <li class="mobile-items">
+            <a class="mobile-link-item" href="#">Portfolio</a>
+          </li>
+          <li class="mobile-items">
+            <a class="mobile-link-item" href="#">Contacts</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mobile-address">
+    <address class="mobile-contacts">
+          <ul class="mobile-contacts-list">
+            <li class="mobile-contacts-item">
+              <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mobile-contacts-item">
+              <a class="mobile-contacts-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <div class="mobile-icons">
+        <ul class="mobile-icon-list">
+                  <li class="mobile-icon-item">
+                    <a class="mobile-link" href="">
+                      <svg class="mobile-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagramm-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mobile-icon-item">
+                    <a class="mobile-link" href="">
+                      <svg class="mobile-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mobile-icon-item">
+                    <a class="mobile-link" href="">
+                      <svg class="mobile-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mobile-icon-item">
+                    <a class="mobile-link" href="">
+                      <svg class="mobile-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+      </div>
+
+    </form>
+  </div>
+</div>
+      <button class="burger-btn">
+  <svg class="burger-icon" width="24" height="24">
+    <use href="./images/symbol-defs.svg#icon-heroicons-solid"></use>
+  </svg>
+</button>
+    </header>
+
+
+
       </div>
     </header>
 
     <main>
-      <section class="hero">
+  <section class="hero">
         <div class="container">
           <h1 class="hero-heading">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button"
@@ -74,7 +160,7 @@
         </div>
       </section>
 
-      <section class="features">
+       <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list">
@@ -130,7 +216,7 @@
         </div>
       </section>
 
-      <section class="our-team">
+    <section class="our-team">
         <div class="container">
           <h2 class="team-head">Our Team</h2>
           <ul class="team-item">
@@ -287,7 +373,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
       <section class="porfolio">
         <div class="container">
           <h2 class="portfolio-heading">Our Portfolio</h2>
@@ -413,12 +499,12 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+ <footer class="page-footer">
       <div class="container footer-container">
         <div class="foot-container">
-          <a class="logo footer-logo" href="./index.html">
-            Web<span class="logo-part">Studio</span></a
-          >
+            <a class="logo footer-logo" href="./index.html">
+              Web<span class="logo-part">Studio</span></a
+            >
           <p class="footer-p">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
@@ -464,6 +550,8 @@
 
 
 
+
+
         <div class="footer-textarea">
           
           <p class="footer-textarea-p">Subscribe</p>
@@ -490,11 +578,11 @@
         </div>
         
       </div>
-    </footer>
+    </footer> 
 
     <!-- Modal -->
 <!-- is-open -->
-    <div class="backdrop ">
+    <div class="backdrop">
       <div class="modal ">
         <button class="close-button" type="button" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
@@ -579,14 +667,20 @@
                 <svg class="checkbox-svg" width="10" height="8">
                   <use href="./images/galochka.svg#icon-galochka"></use>
                   </svg></span>
-              I accept the terms and conditions of the
+                  <span class="checkbox-label-text">
 
-              <a class="checkbox-link" href="#">Privacy Policy</a>
+                    I accept the terms and conditions of the
+      
+                    <a class="checkbox-link" href="#">Privacy Policy</a>
+                 
             </label>
+             </span>
           </div>
           <button class="checkbox-button" type="submit">Send</button>
         </form>
       </div>
     </div>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
